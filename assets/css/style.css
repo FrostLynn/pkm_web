@@ -1,0 +1,67 @@
+:root {
+    --bs-primary: #606C38;
+  }
+    .edukasi-section {
+    background-color: #556B2F;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .edukasi-section h2 {
+    margin-bottom: 40px;
+  }
+  .edukasi-section .icon-container img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  .edukasi-section .icon-container p {
+    font-size: 1.1rem;
+  }
+  .artikel-section {
+    background-color: #EFDCAC;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .custom-carousel {
+    width: 100%;
+    max-width: 800px; /* Set your desired max width */
+    margin: 0 auto; /* Center the carousel */
+  }
+  .custom-carousel .carousel-inner {
+    height: auto; /* Let the height be auto to fit the content */
+  }
+  .custom-carousel .carousel-item img {
+    width: 500px; /* Set your desired thumbnail width */
+    height: 500px; /* Set your desired thumbnail height */
+    object-fit: cover;
+    margin: 0 auto; /* Center the images */
+  }
+  .custom-carousel .carousel-control-prev-icon,
+  .custom-carousel .carousel-control-next-icon {
+    background-color: black; /* Change arrow color to black */
+  }
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+    color: white; /* White text color */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  #pills-tab .nav-link {
+    color: #606C38; /* Custom color for nav links */
+    background-color: #ffffff; /* Ensure background is white to start */
+  }
+  #pills-tab .nav-link:hover {
+    color: #ffffff; /* Custom color for nav links on hover */
+    background-color: #606C38; /* Hover background color */
+  }
+  #pills-tab .nav-link.active {
+    color: #ffffff; /* Custom color for active nav link */
+    background-color: #606C38; /* Custom background color for active nav link */
+  }
+  .full-screen-section {
+          min-height: 100vh; /* Full viewport height */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
